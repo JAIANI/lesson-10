@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contact {
+  padding: 80px 80px;
+  background-color: blue;
+  height: 700px;
+}
+.map {
+  width: 300px;
+  height: 250p;
+}
+.paragrap,
+p {
+  max-width: 500px;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.conect,
+a {
+  color: white;
+  padding-top: 40px;
+}
+.tele {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.mail {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  padding: 9px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.number {
+  text-decoration: none;
+  padding-left: 5px;
+}
+.gmail {
+  text-decoration: none;
+  padding-left: 5px;
+}
