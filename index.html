@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <footer>
-      <section class="contact">
+    <div class="container">
+      <div class="contact">
         <div class="paragrap">
           <h2>კონტაქტი</h2>
           <p>
@@ -39,30 +39,51 @@
           </a>
           <a class="gmail" href="#"> beqab082@gmail.com </a>
         </div>
-      </section>
-      <section class="info">
+      </div>
+
+      <!-- information -->
+      <form method="#">
         <div class="form">
-          <form action="#" method="#">
-            <input id="user name" type="" placeholder="სახელი, გვარი" />
-            <input id="user gmail" type="email" placeholder="ელ.ფოსტა" />
+          <div>
+            <input id="user name" type="name" placeholder="სახელი, გვარი" />
+          </div>
+          <div>
+            <input id="user gmail" type="gmail" placeholder="ელ.ფოსტა" />
+          </div>
+          <div>
             <input
               id="user number"
               type="number"
               placeholder="ტელეფონის ნომერი"
             />
-            <input id="text" type="text" placeholder="შეტყობინება" />
+          </div>
+          <div class="text">
+            <span class="mesig">
+              <label for="massage">შეტყობინება</label>
+            </span>
             <textarea
               name="Message"
               id="Message"
               cols="30"
               rows="10"
             ></textarea>
-            <span class="send">
+
+            <div class="send">
               <button>გაგზავნა</button>
-            </span>
-          </form>
+            </div>
+          </div>
         </div>
-      </section>
+      </form>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="last-paragraph">ყველა უფლება დაცულია</div>
+        <div class="logo">
+          დამზადებულია <img src="image/heart.png" alt="heart" /> -ით
+          <img class="logo" src="image/logo.png" alt="logo" />
+        </div>
+      </div>
     </footer>
   </body>
 </html>
